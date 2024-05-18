@@ -1,0 +1,34 @@
+.textElement {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    color: black;
+  }
+  
+  .firstTextElement {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+  .iconItem {
+    margin-right: 5px;
+    margin-left: 3px;
+  }
+  
+  .buttonElement {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-left: 70px;
+    background-color: rgb(238, 229, 229);
+    transition: background-color 250ms ease-in-out;
+  }
+  
+  .buttonElement:hover {
+    background-color: rgb(187, 182, 182);
+  }
+  
+  .buttonElement:focus {
+    outline: transparent;
+  }

@@ -1,0 +1,23 @@
+.listBox {
+    text-align: left;
+  }
+  
+  .listElement {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .listItem {
+    width: 286px;
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+  }

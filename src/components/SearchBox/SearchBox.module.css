@@ -1,0 +1,23 @@
+.inputWrapper {
+    margin-top: 10px;
+  }
+  
+  .inputElement {
+    width: 316px;
+    margin-bottom: 10px;
+    height: 20px;
+  }
+  
+  .inputElement:focus {
+    outline: transparent;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .labelElement {
+    text-align: left;
+    color: black;
+  }

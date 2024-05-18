@@ -1,0 +1,56 @@
+.form {
+    width: 320px;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 25px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    font-family: "Montseratt", sans-serif;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+  }
+  
+  .inputElement {
+    height: 30px;
+    border-radius: 4px;
+    font-family: "Montseratt", sans-serif;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .inputElement:focus {
+    outline: transparent;
+  }
+  
+  .buttonElement {
+    height: 50px;
+    width: 250px;
+    margin: auto;
+    font-family: "Montseratt", sans-serif;
+    color: black;
+    font-size: 18px;
+    background-color: rgb(75, 209, 246);
+    transition: background-color 300ms ease-in-out;
+    border: transparent;
+  }
+  
+  .buttonElement:hover {
+    background-color: rgb(56, 146, 235);
+  }
+  
+  .buttonElement:focus {
+    outline: transparent;
+  }

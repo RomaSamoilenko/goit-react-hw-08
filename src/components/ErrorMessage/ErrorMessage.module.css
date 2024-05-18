@@ -1,0 +1,10 @@
+.messageWrapper {
+    position: fixed;
+    top: 40%;
+    left: 35%;
+    transform: translateY(-50%);
+  }
+  
+  .message {
+    color: rgb(238, 32, 32);
+  }
